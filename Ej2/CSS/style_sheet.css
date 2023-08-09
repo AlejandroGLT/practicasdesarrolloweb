@@ -17,7 +17,7 @@ body{
     font-size: 18;
     font-weight: bold;
 
-    background: #092746;
+    background: #F4DECB;
 }
 
 /******************************************************************
@@ -35,17 +35,17 @@ body{
 */
 #wrapper header, #wrapper footer{
     height: 9.5%;
-    background: rgb(118, 177, 245);
+    background: rgb(128, 0, 133);
     padding-top: 0.5%;
     box-shadow: 0 0 3px 3px #000000;
 }
 
 /* Gestionamos la caja central como flex */
 #central{
-    height: 79.5%;
+    height: 77.5%;
     display: flex;
     flex-flow: row nowrap;
-    margin: 0.5% 0;
+    margin: 0.9% 0;
     
 }
 
@@ -56,7 +56,8 @@ body{
 #central nav{
     padding: 10px;
     height: 100%;
-    background: rgb(187, 255, 0);
+    background: #be95ba;
+    border: 5px solid #3e0b52;
 
     order: 1;
     flex: 1 1 auto;
@@ -66,7 +67,8 @@ body{
 #central section{
     height: 100%;
     margin: 0 0.5%;
-    background: white;
+    background: #F8EEE7;
+    border: 5px solid #2d003f;
     padding: 0.5%;
 
     order: 2;
@@ -81,7 +83,8 @@ body{
     height: 100%;
     order: 3;
     flex: 1 1 auto;
-    background: rgb(187, 255, 0);
+    background: #be95ba;
+    border: 5px solid #3e0b52;
 }
 
 /******************************************************************
@@ -89,8 +92,8 @@ body{
 ******************************************************************/
 
 #central section>header{
-    background: rgb(18, 107, 45);
-    
+    background: rgb(158, 39, 255);
+    border: 3px solid #ffc7fa;
 
     height: 14%;
     padding: 1%;
@@ -98,8 +101,9 @@ body{
 }
 
 #central section>article{
-    background: rgb(97, 197, 127);
-    border: 1px solid #f05800;
+    background: rgb(250, 212, 255);
+    box-shadow: 0 0 2px 2px #b60bfa;
+    
 
     height: 69%;
     margin: 0 0.5%;
@@ -107,8 +111,8 @@ body{
 }
 
 #central section>footer{
-    background: rgb(18, 107, 45);
-    border: 3px solid #456789;
+    background: rgb(158, 39, 255);
+    border: 3px solid #ffc7fa;
 
     height: 14%;
     padding: 1%;
